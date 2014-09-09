@@ -11,7 +11,7 @@ var totalSlices = pizza*slices;
 //Output Total Slices
 console.log("There was"+" "+totalSlices+" "+"total slices of pizza.");
 
-//Divide totalslices / people
+//Divide total slices / people
 var totalPizza = totalSlices/people;
 //Output total slices per person
 console.log("Each person ate"+" "+totalPizza+" "+"slices of pizza at the party.");
