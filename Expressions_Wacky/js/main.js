@@ -5,10 +5,13 @@
 //Prompt for input
 var hourlyRate = prompt("What is your hourly rate?");
 var hoursWorked = prompt("How many hours do you work weekly?");
-
+var weeks = 4;
 
 //Multiply hourWorked * hourlyRate
 var amountWeekly = hoursWorked * hourlyRate;
 //output for amountWeekly
 console.log("$"+amountWeekly+" "+"is the amount of money you make weekly.");
+
+//
+
 
