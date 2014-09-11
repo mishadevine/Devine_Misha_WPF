@@ -18,4 +18,5 @@ var grandTotal = totalBills * monthsNeeded;
 //output for grandTotal
 console.log("The grand total amount of money needed for September to December is $"+grandTotal);
 
-
+//Amount of money you have
+var iHave = prompt("How much money do you have?");
