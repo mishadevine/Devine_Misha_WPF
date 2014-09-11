@@ -14,7 +14,8 @@ console.log("$"+amountWeekly+" "+"is the amount of money you make weekly.");
 
 //Multiply amountWeekly * weeks
 var amountMonthly = amountWeekly * weeks;
-
+//output for amountMonthly
+console.log("$"+amountMonthly+" "+"is the amount of money you make monthly.")
 
 
 
