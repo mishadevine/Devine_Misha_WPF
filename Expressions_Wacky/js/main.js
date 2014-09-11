@@ -12,6 +12,9 @@ var amountWeekly = hoursWorked * hourlyRate;
 //output for amountWeekly
 console.log("$"+amountWeekly+" "+"is the amount of money you make weekly.");
 
-//
+//Multiply amountWeekly * weeks
+var amountMonthly = amountWeekly * weeks;
+
+
 
 
