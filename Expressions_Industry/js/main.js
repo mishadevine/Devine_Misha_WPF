@@ -21,3 +21,7 @@ console.log("The width of the image in pixel dimensions is"+" "+widthInPixels);
 var heightInPixels = height * dpi;
 //output of heightInPixels
 console.log("The height of the image in pixel dimensions is"+" "+heightInPixels);
+
+
+//Multiply widthInPixels * heightInPixels to get the total amount of square pixels using a string
+console.log("There are"+" "+String(widthInPixels) * String(heightInPixels)+" "+"total amount of square pixels.")
