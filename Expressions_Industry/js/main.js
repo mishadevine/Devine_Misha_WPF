@@ -9,6 +9,7 @@ var weight = prompt("What is the weight of the image?");
 var height = prompt("What is the weight of the image?");
 
 //Prompt made to ask user the DPI of image
+var dpi = prompt("What is the DPI of the image?");
 
 
 
