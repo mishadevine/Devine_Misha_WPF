@@ -15,12 +15,13 @@ console.log("$"+amountWeekly+" "+"is the amount of money you make weekly.");
 //Multiply amountWeekly * weeks
 var amountMonthly = amountWeekly * weeks;
 //output for amountMonthly
-console.log("$"+amountMonthly+" "+"is the amount of money you make monthly.")
+console.log("$"+amountMonthly+" "+"is the amount of money you make monthly.");
 
 //Prompt for input
 var monthsWorked = prompt("How many months have you worked?");
 
-//Multiply am
+//Multiply amountMonthly * monthsWorked using a string
+console.log("$"+String(amountMonthly) * String(monthsWorked)+" "+"is the amount you have made in"+" "+monthsWorked+" "+"months.");
 
 
 
