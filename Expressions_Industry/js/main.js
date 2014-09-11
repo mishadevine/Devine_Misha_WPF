@@ -12,9 +12,12 @@ var height = prompt("What is the height in inches of the image?");
 var dpi = prompt("What is the DPI of the image?");
 
 
-//Multiple the width * height
+//Multiply the width * height
 var widthInPixels = width * dpi;
 //output of withInPixels
 console.log("The width of the image in pixel dimensions is"+" "+widthInPixels);
 
-
+//Multiply height * dpi
+var heightInPixels = height * dpi;
+//output of heightInPixels
+console.log("The height of the image in pixel dimensions is"+" "+heightInPixels);
