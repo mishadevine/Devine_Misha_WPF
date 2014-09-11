@@ -20,3 +20,6 @@ console.log("The grand total amount of money needed for September to December is
 
 //Amount of money you have
 var iHave = prompt("How much money do you have?");
+
+//Subtract grandTotal - iHave using a string
+console.log(String(grandTotal) - String(iHave)+" "+"dollars more is needed in order to pay all your bills for the next"+" "+monthsNeeded+" "+"months.");
