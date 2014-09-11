@@ -17,5 +17,11 @@ var amountMonthly = amountWeekly * weeks;
 //output for amountMonthly
 console.log("$"+amountMonthly+" "+"is the amount of money you make monthly.")
 
+//Prompt for input
+var monthsWorked = prompt("How many months have you worked?");
+
+//Multiply am
+
+
 
 
