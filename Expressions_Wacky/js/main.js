@@ -8,8 +8,7 @@ var hoursWorked = prompt("How many hours do you work weekly?");
 
 
 //Multiply hourWorked * hourlyRate
-console.log("$"+String(hoursWorked) * String(hourlyRate)+" "+"is the amount of money you make weekly.");
+var amountWeekly = hoursWorked * hourlyRate;
+//output for amountWeekly
+console.log("$"+amountWeekly+" "+"is the amount of money you make weekly.");
 
-
-//Prompt for input
-var monthsWorked = prompt("How many months have you worked?");
