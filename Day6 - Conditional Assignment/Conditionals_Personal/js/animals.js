@@ -35,10 +35,10 @@ console.log("You have"+" "+pets1+" "+dogs+" "+"and"+" "+pets2+" "+cats+".");
 
 
 
-//Calulate the total amount of cats and dogs
-var totalPets = pets1 + pets2
+//Calculate the total amount of cats and dogs
+var totalPets = pets1 + pets2;
 //output for totalPets
-console.log("You have a total amount of"+" "+totalPets+" "+"pets")
+console.log("You have"+" "+totalPets+" "+"pets in total.");
 
 
 
