@@ -1,6 +1,7 @@
 // Misha Devine Web Programming Fundamentals
 
-//calculate how many total cats and dogs someone has
+//calculate how many total animals someone has out of dogs and cats
+
 //givens
 var cats = "cats";
 var dogs = "dogs";
@@ -14,7 +15,7 @@ if(pets1==""){
 }
 //isNaN
 if(isNaN(pets1)||pets1==""){
-    pets1 = Number(prompt("Please enter a valid number.D o not leave blank."));
+    pets1 = Number(prompt("Please enter a valid number. Do not leave blank."));
 }
 
 //ask person how many cats they have
@@ -29,6 +30,15 @@ if(isNaN(pets2)||pets2==""){
     pets2 = Number(prompt("Please enter a valid number. Do not leave blank."));
 }
 
+//display number of cats and dogs
+console.log("You have"+" "+pets1+" "+dogs+" "+"and"+" "+pets2+" "+cats+".");
+
+
+
+//Calulate the total amount of cats and dogs
+var totalPets = pets1 + pets2
+//output for totalPets
+console.log("You have a total amount of"+" "+totalPets+" "+"pets")
 
 
 
