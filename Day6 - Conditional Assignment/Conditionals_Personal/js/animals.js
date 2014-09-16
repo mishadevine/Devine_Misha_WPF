@@ -1,5 +1,6 @@
 // Misha Devine Web Programming Fundamentals
 
+//calculate how many total cats and dogs someone has
 //givens
 var cats = "cats";
 var dogs = "dogs";
@@ -16,7 +17,13 @@ if(isNaN(pets1)||pets1==""){
     pets1 = Number(prompt("Please enter a number and please do not leave blank."));
 }
 
+//ask person how many cats they have
 var pets2 =Number(prompt("How many"+" "+cats+" "+"do you have?"));
+//test if number has been entered
+if(pets2=="") {
+    console.log("You did not enter a number.");
+    pets2 = Number(prompt("Please enter a number."))
+}
 
 
 
