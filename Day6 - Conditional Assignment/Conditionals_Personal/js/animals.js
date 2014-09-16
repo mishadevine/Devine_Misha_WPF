@@ -14,7 +14,7 @@ if(pets1==""){
 }
 //isNaN
 if(isNaN(pets1)||pets1==""){
-    pets1 = Number(prompt("Please enter a number and please do not leave blank."));
+    pets1 = Number(prompt("Please enter a valid number.D o not leave blank."));
 }
 
 //ask person how many cats they have
@@ -22,9 +22,12 @@ var pets2 =Number(prompt("How many"+" "+cats+" "+"do you have?"));
 //test if number has been entered
 if(pets2=="") {
     console.log("You did not enter a number.");
-    pets2 = Number(prompt("Please enter a number."))
+    pets2 = Number(prompt("Please enter a number."));
 }
-
+//isNaN
+if(isNaN(pets2)||pets2==""){
+    pets2 = Number(prompt("Please enter a valid number. Do not leave blank."));
+}
 
 
 
