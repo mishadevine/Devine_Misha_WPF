@@ -20,9 +20,16 @@ var yourState = prompt("What state do you live in?");
 //test to see if a string has been entered
 if(yourState===""){
     console.log("You did not enter your state.");
-    yourState = prompt("Please enter the state you live in.")
+    yourState = prompt("Please enter the state you live in and do not leave the field blank.");
 }
-//isNaN
-if(isNaN(yourState) || yourState!=""){
-    yourState = prompt("Please enter your state and do not leave field blank.");
+//if user age is greater than drinkingAge
+if((userAge >= drinkingAge)&&(yourState===state)){
+    console.log("You can drink!");
 }
+else if(yourState != state){
+    console.log("Use other resources to find out the drinking age in your state.");
+}
+else {
+    console.log("You can not drink.");
+}
+
