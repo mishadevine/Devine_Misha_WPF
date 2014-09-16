@@ -1,5 +1,5 @@
 // validating prompts
-/*
+
 var min = prompt("Please enter a minimum number");
 var max =prompt("Please enter and maximum number");
 
@@ -48,6 +48,6 @@ console.log(num3);
 
 
 var name = prompt("What is your name?");
- */
+
 
 
