@@ -17,4 +17,3 @@ else {
 //(condition to be met) first set of stuff : else stuff;
 
 (gpa > 2.0)?console.log("You can graduate"):console.log("You cannot graduate");
-((userAge >= drinkingAge) && (yourState==state))?console.log("You can drink!"):console.log("Find out the drinking age in your state.");

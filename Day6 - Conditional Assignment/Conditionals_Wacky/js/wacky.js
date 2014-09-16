@@ -2,7 +2,7 @@
 
 //Calculate if someone is old enough to drink
 var drinkingAge = 21;
-var state = "Florida";
+var state = "florida";
 
 //ask user what is their age
 var userAge = Number(prompt("What is your age?"));
@@ -16,11 +16,11 @@ if(isNaN(userAge) || userAge===""){
     userAge = Number(prompt("Please enter a valid age and do not leave field blank."))
 }
 //ask user what state do they live in
-var yourState = prompt("What state do you live in?");
+var yourState = prompt("What state do you live in?").toLowerCase();
 //test to see if a string has been entered
 if(yourState===""){
     console.log("You did not enter your state.");
-    yourState = prompt("Please enter the state you live in and do not leave the field blank.");
+    yourState = prompt("Please enter the state you live in and do not leave the field blank.").toLowerCase();
 }
 //if user age is greater than drinkingAge
 if((userAge >= drinkingAge)&&(yourState===state)){
@@ -32,4 +32,3 @@ else if(yourState != state){
 else {
     console.log("You can not drink.");
 }
-
