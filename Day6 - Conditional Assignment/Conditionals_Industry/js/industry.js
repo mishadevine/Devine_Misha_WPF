@@ -7,12 +7,14 @@ var floridaHigh = Number(92200);
 var usHigh = Number(110400);
 
 //ask user what is the state they live in
-var livesIn = Number(prompt("What state do you live in?"));
+var livesIn = prompt("What state do you live in?");
 //check to make sure a number has been entered
 if(livesIn===""){
     console.log("You did not enter your state.");
-    //prompt to reask them to enter their state and to not leave it blank
+    //prompt to re ask them to enter their state and to not leave it blank
     livesIn = Number(prompt("Please enter the state you live in"));
 }
+//if state is florida they will make $92,200 a year
+(livesIn===state)?console.log("You can make a potential high of $"+floridaHigh+" "+"being a Web Developer."):console.log("The potential high in the US is $"+usHigh+". Use http://www.onetonline.org/link/summary/15-1134.00#WagesEmployment to find out the high in your state.");
 
 
