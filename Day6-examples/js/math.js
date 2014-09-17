@@ -4,7 +4,7 @@ var min = prompt("Please enter a minimum number");
 var max =prompt("Please enter and maximum number");
 
 //test to see the number was actually entered
-
+/*
 if(min===""){
     console.log("You did not enter a minimum number.");
     min = prompt("PLEASE enter a minimum number");
@@ -15,6 +15,9 @@ if(isNaN(min) || min===""){
     min = prompt("Please enter a number and do not leave blank.");
 }
 
+
+
+
 if(max===""){
     console.log("You did not enter a maximum number.");
     max = prompt("PLEASE enter a maximum number");
@@ -23,6 +26,14 @@ if(max===""){
 //isNaN
 if(isNaN(max) || max===""){
     max = prompt("Please enter a number and do not leave blank.");
+}
+
+
+*/
+
+//while runs as long as conditions is true
+while(isNaN(min) || min===""){
+    min = prompt("Please enter a number and do not leave blank.");
 }
 
 var random =Math.round(Math.random()*(Number(max)-Number(min))+Number(min));
