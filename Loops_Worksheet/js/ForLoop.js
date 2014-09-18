@@ -1,6 +1,9 @@
 //Misha Devine September 17, 2014 Loops_Worksheet
 
-
+//calculate using user input the number of developers
+//the number of websites each developer has to make per day
+//and how many days the developers need to complete the project.
+//The calculation will out put how many websites there will be in each day.
 
 var numDevelopers = parseInt(prompt("How many web developers are there?"));
 var numWebsites = parseInt(prompt("How many websites do each developer need to make a day?"));
