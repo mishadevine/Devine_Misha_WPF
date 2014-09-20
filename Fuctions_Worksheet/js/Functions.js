@@ -18,6 +18,9 @@ function calCircumference (equationStart,pi,radius){
 }
 //This is asking the return to calculate the circumference equation
 var funcReturn = calCircumference(equationStart,pi,radius);
+//The output result for the function
+console.log("The circumference of the circle is "+funcReturn+".");
+
 
 
 
