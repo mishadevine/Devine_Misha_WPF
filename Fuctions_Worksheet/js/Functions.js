@@ -32,8 +32,10 @@ calcBeeStings (animalWeight,stingsPerPound);
 
 //The function
 function calcBeeStings (animalWeight,stingsPerPound){
-    //This will calculate how many beestings per pound of the animal the animal will have
+    //This will calculate how many beestings per pound of the animal the animal will have and round the answer
     var totalBeeStings = Math.round(animalWeight*stingsPerPound);
+    //this is calling the return on totalBeeStings
+
 
 
     
