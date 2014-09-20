@@ -36,8 +36,7 @@ function calcBeeStings (animalWeight,stingsPerPound){
     var totalBeeStings = Math.round(animalWeight*stingsPerPound);
     //this is calling the return on totalBeeStings
     return totalBeeStings;
-
-   
-
 }
+//This is asking the return to calculate the equation
+var funcResult = calcBeeStings(animalWeight,stingsPerPound);
 
