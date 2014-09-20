@@ -28,10 +28,14 @@ console.log("The circumference of the circle is "+funcReturn+".");
 var animalWeight = 10;
 var stingsPerPound = 8.6666666667;
 //calling the function
-calcuBeeStings (animalWeight,stingsPerPound);
+calcBeeStings (animalWeight,stingsPerPound);
 
 //The function
+function calcBeeStings (animalWeight,stingsPerPound){
+    //This will calculate how many beestings per pound of the animal the animal will have
 
+    
+}
 
 
 
