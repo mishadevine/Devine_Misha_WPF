@@ -24,4 +24,8 @@ console.log("The circumference of the circle is "+funcReturn+".");
 
 
 
+//How many bee stings can kill an animal
+
+
+
 
