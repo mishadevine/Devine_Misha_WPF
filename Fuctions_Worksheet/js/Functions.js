@@ -6,3 +6,7 @@
 var radius = 10;
 var pi = 3.14;
 var equationStart = 2;
+//calling the function
+calCircumference(equationStart,pi,radius);
+
+
