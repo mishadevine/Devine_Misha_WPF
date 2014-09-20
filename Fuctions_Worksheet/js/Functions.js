@@ -30,6 +30,10 @@ var stingsPerPound = 8.6666666667;
 //calling the function
 calcuBeeStings (animalWeight,stingsPerPound);
 
+//The function
+
+
+
 
 
 
