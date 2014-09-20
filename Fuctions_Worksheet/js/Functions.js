@@ -39,4 +39,7 @@ function calcBeeStings (animalWeight,stingsPerPound){
 }
 //This is asking the return to calculate the equation
 var funcResult = calcBeeStings(animalWeight,stingsPerPound);
+//The output result
+console.log("A bee has to sting an animal weighing "+animalWeight+"lbs"+" "+funcResult+" times in order to kill them");
+
 
