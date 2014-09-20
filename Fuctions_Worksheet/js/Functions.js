@@ -13,9 +13,11 @@ calCircumference(equationStart,pi,radius);
 function calCircumference (equationStart,pi,radius){
     //this will calculate the circumference and round the anwser to the nearest integer
     var circumference = Math.round(equationStart*pi*radius);
-    //This is asking to show the answer
+    //This is calling the return on circumference
     return circumference;
 }
+//This is asking the return to calculate the circumference equation
+var funcReturn = calCircumference(equationStart,pi,radius);
 
 
 
