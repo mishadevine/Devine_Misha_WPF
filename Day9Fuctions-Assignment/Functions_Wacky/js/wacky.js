@@ -14,6 +14,9 @@ function totalMoney(s,q) {
 
     //calculate the problem
     var totalMoney = states*quarterPrice;
+    //this will output the answer
+    console.log(totalMoney);
 
-    
+
 }
+
