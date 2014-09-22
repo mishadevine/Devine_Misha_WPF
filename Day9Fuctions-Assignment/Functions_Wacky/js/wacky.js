@@ -6,3 +6,6 @@
 
 var states = 50;
 var quarterPrice = .25;
+//call the function using the code below
+totalMoney (states,quarterPrice);
+
