@@ -12,5 +12,8 @@ totalMoney (states,quarterPrice);
 //the function has been created
 function totalMoney(s,q) {
 
+    //calculate the problem
+    var totalMoney = states*quarterPrice;
 
+    
 }
