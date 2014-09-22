@@ -13,7 +13,7 @@ function area(w,l){
 //anonymous function
 //parameter of a rectangle
 
-function parameter (w,l){
+var parameter = function (w,l){
 
     var parameter = (2*w)+(2*l);
     console.log(parameter);

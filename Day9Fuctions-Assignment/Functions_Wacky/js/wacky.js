@@ -9,3 +9,8 @@ var quarterPrice = .25;
 //call the function using the code below
 totalMoney (states,quarterPrice);
 
+//the function has been created
+function totalMoney(s,q) {
+
+
+}
