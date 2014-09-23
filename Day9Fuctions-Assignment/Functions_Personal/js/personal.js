@@ -14,7 +14,13 @@ var oldEnough = function (age,movie,rRated,pg13) {
     if(age >=17 && movie===rRated){
         console.log("You are old enough to see this movie without an adult.");
     }
-    
+    //else if the user is 13 or older and they want to see a
+    // PG 13 movie, out puts they are old enough to see it
+    else if(age >= 13 && movie===pg13){
+        console.log("You are old enough to see this movie without an adult.");
+    }
+
 
 }
+
 
