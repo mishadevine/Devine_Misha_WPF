@@ -3,4 +3,7 @@
 
 var flyers = parseInt(prompt("How many flyers have you completed in 24 hours?"));
 var signs = parseInt(prompt("How many signs have you completed in 24 hours?"));
+//Call the function
+var total = totalProducts(flyers, signs);
+
 
