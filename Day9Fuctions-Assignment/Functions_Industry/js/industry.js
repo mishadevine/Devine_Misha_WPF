@@ -14,3 +14,7 @@ function totalProducts(f, s){
     return totalProducts;
 
 }
+//ternary to replace if else statment
+(flyers + signs  >= 20)?console.log("You will get a 10% pay raise!"):console.log("Thank you for completing "+total+" flyers and signs. We will see you tomorrow." );
+
+
