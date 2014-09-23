@@ -26,5 +26,6 @@ var oldEnough = function (age,movie,rRated,pg13) {
     }
 
 }
-
+//calling the function
+oldEnough(age,movie,rRated,pg13);
 
