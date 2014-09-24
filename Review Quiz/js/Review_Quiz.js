@@ -8,8 +8,8 @@ if(isNaN(radius) || radius===""){
 
 
 function calcuArea(r) {
-    area = 2*r*3.14;
+    var area = 2*r*3.14;
     return area;
 }
-calcuArea(radius);
-console.log("The area of the circle is "+area+".");
+var result = calcuArea(radius);
+console.log("The area of the circle is "+result+".");
